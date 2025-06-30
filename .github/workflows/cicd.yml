@@ -19,3 +19,9 @@ jobs:
     - name: List Files
       run: |
        echo "Terry is teaching"
+
+    - name: Run tests with pytest
+      run: |
+        pytest
+
+    
